@@ -1,0 +1,82 @@
+<style>
+    
+    #corpo-texto {
+        width: 694px;
+        height: 894px;
+        padding-left: 10px;
+        border: 1px solid red;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: rgb(26, 49, 119);
+        color: white;
+        width: 694px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+    #titulo {
+        padding-top: 10px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    
+    #pp {
+        width: 420px;
+        text-align: justify;
+        float: left;
+    }
+    
+    img {
+        height: 120px;
+        width: 215px;
+        float: right;
+        margin-right: 15px;
+    }
+    
+    .botao{
+        display: inline-block;
+        padding: 5px 10px;
+        border: 1px solid rgb(26, 49, 119);
+        border-radius: 5px;
+        color: rgb(26, 49, 119);
+        background-color: #fff;
+    }
+    
+    
+    #primeiroacesso{
+
+
+    }
+    
+</style>
+
+        <h1>CONTATOS</h1>
+
+<div id="corpo-texto"> <!-- inicio do corpo do texto-->
+    <div> <!-- div p/ paragrafos -->
+        
+        <p id="titulo"> 
+            <strong>Atendimento Eletrônico:</strong>
+        </p>
+        
+        <p id="pp"> <!-- inicio primeiro paragrafo -->
+            O <strong>SEFAZ PARA VOCÊ</strong> é o Portal de Atendimento ao Cidadão que permite a abertura de solicitações, mediante o registro de tickets de atendimento que podem ser monitorados na área <a href="https://sac.sefaz.mt.gov.br/citsmart/pages/knowledgeBasePortal/knowledgeBasePortal.load#/knowledge/4724">“Minhas Solicitações”</a>. Caso deseje registrar sua solicitação, clique no ícone ao lado.
+         </p> <!-- fim primeiro paragrafo  -->
+         
+    </div> <!-- fim div p/ paragrafos -->
+        
+         <!-- imagem -->
+         <a href="https://sac.sefaz.mt.gov.br/citsmart/webmvc/login#/ec?idExperienceCenter=1"> 
+            <img src="/documents/8181438/8181547/sefaz_para_voce.jpg/95118d9d-55db-4e6c-fd34-8c9933278b9e?t=1556811391304"> </a> 
+         <!-- imagem -->
+         
+         <!-- botões -->
+         <input class="botao" id="primeiroacesso" type="button" value="Conheça a funcionalidade">
+         <input class="botao" id="recuperarsenha" type="button" value="Recuperação da Senha">
+
+                
+    
+</div> <!-- fim do corpo do texto-->
